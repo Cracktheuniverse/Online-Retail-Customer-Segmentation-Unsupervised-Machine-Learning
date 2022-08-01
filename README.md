@@ -15,3 +15,17 @@ UnitPrice: Unit price. Numeric, Product price per unit in sterling.
 CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
 Country: Country name. Nominal, the name of the country where each customer resides.
 
+
+Challenges: 
+
+Data cleaning
+RFM analysis
+Deciding optimal number of clusters
+
+
+Conlcusions:
+
+We got optimal number of clusters=2 with ghelp of Elbow method, Silhouette score.
+Cluster 0 has high recency rate but very low frequency and monetary. Cluster 0 conatins 2414 customers.
+Cluster 1 has low recency rate but they are frequent buyers and spends very high money than other customers as mean monetary value is very high.Thus generates more revnue to the retail business.
+With this, we are done.Also, we can use more robust analysis for the clustering, using not only RFM but other metrics such as demographics or product features.
